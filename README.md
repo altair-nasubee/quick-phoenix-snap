@@ -26,8 +26,8 @@ Startボタンを押したタイミングで通知の許可を求める
 ## Usage
 
 ### 作成したアプリをDyad以外でローカル実行する方法
-- 作成したアプリのフォルダを丸ごとコピー
-- PowerShellを開いてコピーしたフォルダへ遷移
+- Dyadで作成したアプリのフォルダを丸ごとコピー or GitHubのリポジトリをClone
+- PowerShellを開いてアプリのフォルダへ遷移
 - Execute commands on PowerShell
 ```powershell
 npm install --legacy-peer-deps
@@ -36,5 +36,5 @@ npm run dev
 ```
 - コンソールに `http://localhost:8080/` などの表示が出るので、そのアドレスを開けば実行できる
 - 終了時は、[Ctrl]+[C]でサーバーを止める
-- 削除するときはコピーしたフォルダごと削除すればOK
+- 削除するときはアプリのフォルダごと削除すればOK
 
